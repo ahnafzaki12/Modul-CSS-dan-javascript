@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>contoh program javascript</title>
+    </head>
+
+    <body>
+        <script language="javascript">
+            alert("Hallo!!")
+
+            var nilai;
+            var nilai2=3;
+            nilai=2;
+            document.write("nilai = "+nilai+"<br>")
+            document.write("nilai2 = "+nilai2+"<br>")
+            document.write("hasil kali = "+(nilai*nilai2)+"<br>")
+        </script>
+
+    <br>
+    <br>
+        <script language="javascript">
+            var x = 4;
+            var y = 11;
+            var z = "cat";
+            var q = "17";
+            ans1 = x + y;
+            ans2 = z + x;
+            ans3 = x + q;
+            ans4 = q - x;
+            ans5 = x * q;
+
+            document.write("x = " + x + "<br>");
+            document.write("y = " + y + "<br>");
+            document.write("z = " + z + "<br>");
+            document.write("q = " + q + "<br>");
+            document.write("x + y = " + ans1 + "<br>");
+            document.write("z + x = " + ans2 + "<br>");
+            document.write("x + q = " + ans3 + "<br>");
+            document.write("q - x = " + ans4 + "<br>");
+            document.write("x * q = " + ans5 + "<br>");
+        </script>
+
+        <p id="demo"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML = "Hello World!"
+        </script>
+
+        
+        <p>Paragraf 1.</p>
+        <p>Paragraf 2.</p>
+        <p>Paragraf 3.</p>
+
+
+        <p id="demo2"></p>
+
+        <script>
+            var x = document.getElementsByTagName("p");
+            document.getElementById("demo2").innerHTML =
+            'Paragraf Pertama (indeks 0) adalah : ' + x[1].innerHTML;
+        </script>
+
+        <table>
+            <tr onmouseover="this.bgColor='lightblue'" onmouseout="this.bgColor='#efefef'" bgColor="#efefef">
+                <td>Baris Pertama</td>
+            </tr>
+            <tr>
+                <td>Baris Kedua</td>
+            </tr>
+        </table>
+    </body>
+</html>
